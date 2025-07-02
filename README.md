@@ -33,12 +33,5 @@
 - Ứng dụng cần kết nối tới một server AI để xử lý ảnh.
 - Bạn cần điền đường dẫn server AI  vào biến `_baseUrl` trong file `lib/services/api_service.dart` (ví dụ: `http://<ip-hoặc-domain>:<port>`).
 
-## Phụ thuộc chính
-- [dio](https://pub.dev/packages/dio)
-- [file_picker](https://pub.dev/packages/file_picker)
-- [image](https://pub.dev/packages/image)
-- [http](https://pub.dev/packages/http)
-- [logging](https://pub.dev/packages/logging)
-- [share_plus](https://pub.dev/packages/share_plus)
-- [shared_preferences](https://pub.dev/packages/shared_preferences)
+
 
