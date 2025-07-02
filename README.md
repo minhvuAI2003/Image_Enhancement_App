@@ -27,7 +27,7 @@
    ```
 
 
-## Backend/Server
+## Server
 - Ứng dụng cần kết nối tới một server AI để xử lý ảnh.
 - Bạn cần điền đường dẫn server AI  vào biến `_baseUrl` trong file `lib/services/api_service.dart` (ví dụ: `http://<ip-hoặc-domain>:<port>`).
 
