@@ -12,7 +12,6 @@
 
 ## Yêu cầu hệ thống
 - Flutter SDK >= 3.0.0 < 4.0.0
-- Hệ điều hành: Windows, macOS, Linux, Web, Android, iOS
 
 ## Cài đặt
 1. Clone repo:
@@ -29,15 +28,10 @@
    flutter run -d chrome
    ```
 
-## Sử dụng
-- Nhấn **Chọn ảnh** để tải ảnh từ thiết bị hoặc **Tải ảnh từ URL** để nhập link ảnh.
-- Nhấn **Xử lý ảnh** để ứng dụng tự động phát hiện và nâng cao chất lượng ảnh.
-- Xem thông tin ảnh gốc và ảnh đã xử lý.
-- Lưu ảnh kết quả về máy.
 
 ## Backend/Server
-- Ứng dụng sử dụng server AI tại địa chỉ: `http://158.101.124.78:3550`
-- Nếu muốn tự triển khai server, hãy thay đổi biến `_baseUrl` trong `lib/services/api_service.dart`.
+- Ứng dụng cần kết nối tới một server AI để xử lý ảnh.
+- Bạn cần điền đường dẫn server AI  vào biến `_baseUrl` trong file `lib/services/api_service.dart` (ví dụ: `http://<ip-hoặc-domain>:<port>`).
 
 ## Phụ thuộc chính
 - [dio](https://pub.dev/packages/dio)
@@ -48,9 +42,3 @@
 - [share_plus](https://pub.dev/packages/share_plus)
 - [shared_preferences](https://pub.dev/packages/shared_preferences)
 
-## Đóng góp
-Mọi đóng góp, báo lỗi hoặc ý tưởng mới đều được hoan nghênh! Hãy tạo issue hoặc pull request.
-
----
-
-> Ứng dụng này dành cho mục đích học tập và demo. Nếu sử dụng cho mục đích thương mại, hãy kiểm tra lại bản quyền các mô hình AI phía server.
