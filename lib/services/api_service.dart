@@ -10,7 +10,7 @@ import 'dart:typed_data';
 
 class ApiService {
   final Dio _dio;
-  final String _baseUrl = 'http://158.101.124.78:3550';
+  final String _baseUrl = 'http://158.101.124.78:3550'; //Thay bằng đường dẫn tới server AI của bạn
   final Logger _logger = Logger('ApiService');
 
   ApiService() : _dio = Dio() {
