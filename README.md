@@ -10,8 +10,6 @@
 - Lưu ảnh kết quả về thiết bị
 - Giao diện hiện đại, dễ sử dụng
 
-## Yêu cầu hệ thống
-- Flutter SDK >= 3.0.0 < 4.0.0
 
 ## Cài đặt
 1. Clone repo:
